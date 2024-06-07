@@ -1,14 +1,21 @@
-#container{
+#container {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   height: 100vh;
   width: 100vw;
   padding: 0px;
   margin: 0px;
 }
 
-body{
+body {
   margin: 0px;
   padding: 0px;
+}
+
+#card {
+  width: 80%;
+  height: 90%;
+  max-height: 1000px;
+  border: black solid 2px;
 }
