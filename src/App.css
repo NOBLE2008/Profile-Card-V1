@@ -86,3 +86,38 @@ p{
   padding-left: 1.5px;
 }
 
+.html{
+  background-color: #E34C26;
+}
+
+.css{
+  background-color: #1572B6;
+}
+
+.react{
+  background-color: #61DBFB;
+}
+
+.javascript{
+  background-color: #F0E68C;
+}
+
+.mongo{
+  background-color: #43A047;
+}
+
+.node{
+  background-color: #339933;
+}
+
+.express{
+  background-color: #009933;
+}
+
+.git{
+  background-color: #999999;
+}
+
+.sql{
+  background-color: #882B0F;
+}
