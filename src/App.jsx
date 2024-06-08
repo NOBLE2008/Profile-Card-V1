@@ -19,7 +19,37 @@ function App() {
               and deliver high-quality results
             </p>
           </div>
-          <div id="skills"></div>
+          <hr />
+          <div id="skills">
+            <div className="skill html">
+              <p className="skills">HTML</p>
+            </div>
+            <div className="skill css">
+              <p className="skills">CSS</p>
+            </div>
+            <div className="skill javascript">
+              <p className="skills">JavaScript</p>
+            </div>
+            <div className="skill node">
+              <p className="skills">Node</p>
+            </div>
+            <div className="skill react">
+              <p className="skills">React</p>
+            </div>
+            <div className="skill mongo">
+              <p className="skills">MongoDB</p>
+            </div>
+            <div className="skill express">
+              <p className="skills">Express</p>
+            </div>
+            <div className="skill git">
+              <p className="skills">Git</p>
+            </div>
+            <div className="skill sql">
+              <p className="skills">SQL</p>
+  
+          </div>
+          </div>
         </div>
       </div>
     </>

@@ -65,6 +65,24 @@ p{
   font-family: 'Roboto', sans-serif;
 }
 
+#skills{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px;
+  gap: 4.5px;
+}
 
+.skill{
+  display: inline-block;
+  width: auto;
+  margin-right: 9px;
+  background-color: red;
+  border-radius: 10px;
+}
 
+.skills{
+  margin: 2px;
+  padding-right: 1.5px;
+  padding-left: 1.5px;
+}
 
