@@ -1,6 +1,37 @@
 import "./App.css";
+import Skills from "./components/Skills";
 
 function App() {
+  const skills = [
+    {
+      name: "HTML",
+      tech: "html",
+    },
+    {
+      name: "CSS",
+      tech: "css",
+    },
+    {
+      name: "JavaScript",
+      tech: "javascript",
+    },
+    {
+      name: "Node",
+      tech: "node",
+    },
+    {
+      name: "React",
+      tech: "react",
+    },
+    {
+      name: "MongoDB",
+      tech: "mongo",
+    },
+    {
+      name: "Express",
+      tech: "express",
+    },
+  ];
   return (
     <>
       <div id="container">
@@ -21,34 +52,9 @@ function App() {
           </div>
           <hr />
           <div id="skills">
-            <div className="skill html">
-              <p className="skills">HTML</p>
-            </div>
-            <div className="skill css">
-              <p className="skills">CSS</p>
-            </div>
-            <div className="skill javascript">
-              <p className="skills">JavaScript</p>
-            </div>
-            <div className="skill node">
-              <p className="skills">Node</p>
-            </div>
-            <div className="skill react">
-              <p className="skills">React</p>
-            </div>
-            <div className="skill mongo">
-              <p className="skills">MongoDB</p>
-            </div>
-            <div className="skill express">
-              <p className="skills">Express</p>
-            </div>
-            <div className="skill git">
-              <p className="skills">Git</p>
-            </div>
-            <div className="skill sql">
-              <p className="skills">SQL</p>
-  
-          </div>
+            {skills.map((skill, index) =>{
+              return <Skills skill={skill} key={index} />
+            })}
           </div>
         </div>
       </div>
